@@ -34,8 +34,21 @@ This add-on requires DDEV v1.19.3 or higher.
 
 * Install the DDEV viteserve add-on:
 
+For DDEV v1.23.5 or above run
+
+```shell
+ddev add-on get torenware/ddev-viteserve
+```
+
+For earlier versions of DDEV run
+
 ```shell
 ddev get torenware/ddev-viteserve
+```
+
+Then restart your project and start the vite server
+
+```shell
 ddev restart
 ddev vite-serve start
 ```
